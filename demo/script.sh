@@ -1,6 +1,7 @@
-apt update && \
-apt install -y locales cmake libsm6 libxext6 libxrender-dev && \
-locale-gen en_US.UTF-8
+#!/bin/bash
+sudo apt update
+sudo apt install -y locales cmake libsm6 libxext6 libxrender-dev && \
+sudo locale-gen en_US.UTF-8
 
 export LC_ALL=en_US.UTF-8
 
